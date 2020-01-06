@@ -12,14 +12,7 @@ import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
-import context.ApplicationContext;
-//import spms.controls.LogInController;
-//import spms.controls.LogOutController;
-//import spms.controls.MemberAddController;
-//import spms.controls.MemberDeleteController;
-//import spms.controls.MemberListController;
-//import spms.controls.MemberUpdateController;
-//import spms.dao.MySqlMemberDao;
+import spms.context.ApplicationContext;
 
 @WebListener
 public class ContextLoaderListener implements ServletContextListener {

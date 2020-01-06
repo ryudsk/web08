@@ -2,8 +2,8 @@ package spms.controls;
 
 import java.util.Map;
 
-import bind.DataBinding;
 import spms.annotation.Component;
+import spms.bind.DataBinding;
 import spms.dao.MySqlProjectDao;
 import spms.vo.Project;
 

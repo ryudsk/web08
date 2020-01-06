@@ -1,6 +1,7 @@
 package spms.servlets;
 
 import java.io.IOException;
+
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -21,7 +22,7 @@ public class MemberListServlet extends HttpServlet {
 			// 컨텍스트 초기화 매개변수 사용
 				ServletContext sc = this.getServletContext();
 				MySqlMemberDao memberDao = (MySqlMemberDao)sc.getAttribute("memberDao"); //Listener에서 미리생성한 Dao가져오기
-				request.setAttribute("members", memberDao.selectList()); //Dao결과 request에 보관
+			//	request.setAttribute("members", memberDao.selectList()); //Dao결과 request에 보관
 				request.setAttribute("viewUrl", "/member/MemberList.jsp"); //호출할 JSP주소 request에 보관
 //				response.setContentType("text/html; charset=UTF-8");
 //				RequestDispatcher rd = request.getRequestDispatcher("/member/MemberList.jsp");

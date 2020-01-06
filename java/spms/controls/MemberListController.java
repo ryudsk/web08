@@ -3,8 +3,8 @@ package spms.controls;
 import java.util.HashMap;
 import java.util.Map;
 
-import bind.DataBinding;
 import spms.annotation.Component;
+import spms.bind.DataBinding;
 import spms.dao.MySqlMemberDao;
 
 @Component(value="/member/list.do")
